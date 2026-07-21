@@ -3,9 +3,8 @@ import re
 import pandas as pd
 import chromadb
 from chromadb.utils import embedding_functions
-
 # ==========================================================
-# 1. 원격 ChromaDB 연결 및 컬렉션 가져오기/생성하기 
+# 1. 원격 ChromaDB gi연결 및 컬렉션 가져오기/생성하기 
 # ==========================================================
 client = chromadb.HttpClient(
     host="192.168.10.25",
